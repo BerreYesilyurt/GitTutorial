@@ -15,29 +15,37 @@ Git GPU ise terminal kullanmakta zorlanan ya da terminal kullanmayı tercih etme
 Ben bu yazıda Git Bash ile kullanabileceğimiz komutlardan bahsettim.
 
 ---
-## Git Kullanımı
-Genel ayarlardan bahsedecek olursak :
+## Git Bash İçin Temel Komutlar
+
+1- `cd` komutu ile bilgisayarda bulunan istediğiniz dizine gidebilirsiniz. Örneğin `cd/Desktop/GitTutorial` komutu ile masaüstünde bulunan GitTutorial klasörünün içine girmiş oluruz.  
+
+2- `ls` komutu ile içerisinde bulunduğumuz klasörün içerdiği dosya ve dizinlere ulaşabiliriz. `ls -a` komutu ile gizli dosyaları da görmek mümkündür.  
+
+3- `pwd` komutu ile hangi dizinde bulunduğumuzu soegulayabiliriz.  
+
+4- `mkdir "oluşturmak istediğiniz klasör adı"` yazarak termianl aracılığıyla bir klasör oluşturabiliyoruz.  
+
+5- `touch "dosya adı"` ile bir dosya oluşturabiliyoruz. 
+
+6- `vi ""dosya adı"` ile yazdığınız dosyanın içerisine girerek değişiklik yapabiliyorsunuz. Ancak bu komutu yazdıktan sonra değişiklik yapabilmeniz için **"i"** tuşuna basmanız gerekmektedir. Değişiklikleri tamamladıktan sonra dosyadan çıkabilmek için **"Esc"** tuşuna bastıkdan sonra **":wq"** yazmalısınız. Buradaki w-> write, q-> quit anlamına gelmektedir.  
+
+7- `clear` komutu ile terminal ekranımızı temizleyebiliyoruz.
+
+---
+## Temel Git Komutları
+
+
 1- `git --version ` ile bilgisayarınızda yüklü olan git sürümünü öğrenebilirsiniz.  
   
 2- `git config --list` ile git'in ilgili yapılandırılmış ayarlarını görebilirsiniz.  
 
 3- `git config --global user.name "kullanmak istediğiniz kullanıcı adınız"` ve `git config --global user.email "mail adresiniz"` ile Git kullanıcı adınız ve mailinizi belirleyebilirsiniz.  
 
-4- `cd` komutu ile bilgisayarda bulunan istediğiniz dizine gidebilirsiniz. Örneğin `cd/Desktop/GitTutorial` komutu ile masaüstünde bulunan GitTutorial klasörünün içine girmiş oluruz.  
+4- Terminalde projemizin olduğu dizine gittikten sonra ` git init ` komutu ile projemizin bulunduğu klasöre ".git" uzantılı gizli bir klasör eklenir ve projemizde yaptığımız değişiklikler izlenir. Git komutlarını projemizde kullanabilmemiz için bu komutu kullanmamız şarttır.  
 
-5- `ls` komutu ile içerisinde bulunduğumuz klasörün içerdiği dosya ve dizinlere ulaşabiliriz. `ls -a` komutu ile gizli dosyaları da görmek mümkündür.  
+5- `git status` komutu projemizde bulunan dosyaları, durumlarını, staging area içerisinde bulunup bulunmadıklarını ve commit edilip edilemeyeceklerini gösterir.  
 
-6- `pwd` komutu ile hangi dizinde bulunduğumuzu soegulayabiliriz.  
-
-7- `mkdir "oluşturmak istediğiniz klasör adı"` yazarak termianl aracılığıyla bir klasör oluşturabiliyoruz.  
-
-8- `touch "dosya adı"` ile bir dosya oluşturabiliyoruz. 
-
-9- `vi ""dosya adı"` ile yazdığınız dosyanın içerisine girerek değişiklik yapabiliyorsunuz. Ancak bu komutu yazdıktan sonra değişiklik yapabilmeniz için "i"" tuşuna basmanız gerekmektedir. Değişiklikleri tamamladıktan sonra dosyadan çıkabilmek için "Esc" tuşuna bastıkdan sonra ":wq" yazmalısınız. Buradaki w-> write, q-> quit anlamına gelmektedir.
-
-İlk olarak terminalde projemizin olduğu dizine gitmeliyiz. Bunun için "cd" komutunu kullanıyoruz. Örneğin terminalde `cd/Desktop/GitTutorial` komutu ile masaüstünde bulunan GitTutorial klasörüne girmiş oluruz.
-
-` git init ` komutu ile projemizin bulunduğu klasöre ".git" uzantılı gizli bir klasör eklenir ve projemizde yaptığımız değişiklikler izlenir. Git komutlarını projemizde kullanabilmemiz için bu komutu kullanmamız şarttır. 
+6- `git add "dosya adı"` ile istediğimiz dosyayı staging area'ya ekleyebiliyoruz. Eğer klasörümüzde bulunan tüm dosyaarı eklemek istersek bunun için kullanılması gereken kod ise şudur : `git add .` 
 
 
 
