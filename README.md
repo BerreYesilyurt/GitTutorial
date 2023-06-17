@@ -27,7 +27,13 @@ Genel ayarlardan bahsedecek olursak :
 
 5- `ls` komutu ile içerisinde bulunduğumuz klasörün içerdiği dosya ve dizinlere ulaşabiliriz. `ls -a` komutu ile gizli dosyaları da görmek mümkündür.  
 
-6- `pwd` komutu ile hangi dizinde bulunduğumuzu soegulayabiliriz.
+6- `pwd` komutu ile hangi dizinde bulunduğumuzu soegulayabiliriz.  
+
+7- `mkdir "oluşturmak istediğiniz klasör adı"` yazarak termianl aracılığıyla bir klasör oluşturabiliyoruz.  
+
+8- `touch "dosya adı"` ile bir dosya oluşturabiliyoruz. 
+
+9- `vi ""dosya adı"` ile yazdığınız dosyanın içerisine girerek değişiklik yapabiliyorsunuz. Ancak bu komutu yazdıktan sonra değişiklik yapabilmeniz için "i"" tuşuna basmanız gerekmektedir. Değişiklikleri tamamladıktan sonra dosyadan çıkabilmek için "Esc" tuşuna bastıkdan sonra ":wq" yazmalısınız. Buradaki w-> write, q-> quit anlamına gelmektedir.
 
 İlk olarak terminalde projemizin olduğu dizine gitmeliyiz. Bunun için "cd" komutunu kullanıyoruz. Örneğin terminalde `cd/Desktop/GitTutorial` komutu ile masaüstünde bulunan GitTutorial klasörüne girmiş oluruz.
 
