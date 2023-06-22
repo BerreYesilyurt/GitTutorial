@@ -63,6 +63,10 @@ Ben bu yazıda Git Bash ile kullanabileceğimiz komutlardan bahsettim.
 
 14- `git reset "commit_id" --hard` komutu ile id'si girilen commit'in oluşturulduğu düzene geri dönülür. Sonraki versiyonlar silinir.
 
+15- `git branch -D "branch adı"` komutu branch silmek için kullanılır.
+
+16-`git nerhe "branch adı"` ile verilen branch üstünde bulunan branch ile birleştiriliyor.
+
 
 
 
