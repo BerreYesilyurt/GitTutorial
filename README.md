@@ -53,6 +53,16 @@ Ben bu yazıda Git Bash ile kullanabileceğimiz komutlardan bahsettim.
 
 9 `git log` komutu ile yaptığımız commit işlemlerinin özet bilgilerini görüntüleyebiliriz. Eğer özet bilgilerinin daha okunabilir bir formatta gelmesi isteniyorsa `git log --oneline` komutu kullanılabilir.
 
+10- `git branck "branch adı"` komutu ile yeni bir branch oluşturulur. `git branch -a` komutu ile branchler listelenir.
+
+11- `git checkout "branch adı` ile yeni bir dala(branch) geçiş yapılabilir.
+
+12- `git checkout --b "branch adı"` ile yeni bir branch oluşturulur ve o branche geçiş yapılır.
+
+13- `git reset "commit_id" --soft` komutuyla tüm dosyalar staging area'dadır.
+
+14- `git reset "commit_id" --hard` komutu ile id'si girilen commit'in oluşturulduğu düzene geri dönülür. Sonraki versiyonlar silinir.
+
 
 
 
