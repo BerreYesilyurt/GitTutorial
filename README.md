@@ -51,6 +51,8 @@ Ben bu yazıda Git Bash ile kullanabileceğimiz komutlardan bahsettim.
 
 8- Dosyaları staging area'ya taşıdıktan sonra artık commit işlemi yapabiliriz. Commit, proje üzerinde yapılan her bir değişikliğin mesajla adlandırılması olarak tanımlanabilir. Yaptığımız değişikliği adlandırmak için `git commit -m "mesaj ifadesi"` komutunu kulanırız.
 
+9 `git log` komutu ile yaptığımız commit işlemlerinin özet bilgilerini görüntüleyebiliriz. Eğer özet bilgilerinin daha okunabilir bir formatta gelmesi isteniyorsa `git log --oneline` komutu kullanılabilir.
+
 
 
 
