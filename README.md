@@ -47,6 +47,10 @@ Ben bu yazıda Git Bash ile kullanabileceğimiz komutlardan bahsettim.
 
 6- `git add "dosya adı"` ile istediğimiz dosyayı staging area'ya ekleyebiliyoruz. Eğer klasörümüzde bulunan tüm dosyaarı eklemek istersek bunun için kullanılması gereken kod ise şudur : `git add .` 
 
+7- `git rm -cached "dosya adı"` komutu ile, stagng area'ya taşıdığımız dosyaları geri alabiliriz.
+
+8- Dosyaları staging area'ya taşıdıktan sonra artık commit işlemi yapabiliriz. Commit, proje üzerinde yapılan her bir değişikliğin mesajla adlandırılması olarak tanımlanabilir. Yaptığımız değişikliği adlandırmak için `git commit -m "mesaj ifadesi"` komutunu kulanırız.
+
 
 
 
